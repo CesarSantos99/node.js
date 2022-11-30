@@ -60,8 +60,6 @@ app.delete('/users/:id', checkUsersId, (request, response) => {
 })
 
 
-
-
 app.listen(porta, () => {
     console.log( 'Olá');
 })
